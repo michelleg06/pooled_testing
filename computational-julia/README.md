@@ -2,8 +2,6 @@
 
 This directory contains the public reproduction materials for computational experiments 1--4. It includes the active Julia source, package-environment files, an identifier-free pilot input, stored aggregate results, and table and figure sources.
 
-The full solver-dependent experiments were not rerun while assembling this release because they require licensed Gurobi and MOSEK installations.
-
 ## Release notes
 
 - The original `id` field in `pilotdata.csv` was removed. In the recovered code it served only as an opaque dictionary key; it was not a model covariate, grouping variable, or reported output.
