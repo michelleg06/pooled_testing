@@ -3,7 +3,6 @@
 # ===========================================================================================
 # Script: setup.R
 # Project: Empirical analysis for the C-SEF randomized trial
-# Author: Michelle González Amador, Simon Finster
 # Purpose: Set the project paths, packages, and common output settings.
 # Inputs: data/baseline.csv and data/endline.csv.
 # Outputs: Path helpers and shared settings used by the R scripts.
