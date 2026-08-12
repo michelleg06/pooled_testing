@@ -1,0 +1,31 @@
+\begin{table}[tb!]
+    \centering
+    \begin{threeparttable}
+    \caption{Performance of the MILP and \greedy{} on pilot data ($G=5$).}
+    \label{table:experiment1}
+    {\small
+    \renewcommand{\arraystretch}{1.15}
+    \begin{tabular}{@{} crrrrrr @{}}
+        \toprule
+        & \multicolumn{3}{c}{{MILP}} & \multicolumn{3}{c}{{\greedy{}}} \\
+        \cmidrule(lr){2-4} \cmidrule(l){5-7}
+        {Budget} & Welfare & Guarantee & Time & Welfare & Apx To Optimal & Time \\
+        \midrule
+        2 & 461.24 & 0.18 & 292 ms & 461.22 & 1.0004 & 49 ms \\
+        6 & 1292.04 & 0.53 & 1.91 s & 1291.91 & 1.0005 & 48 ms \\
+        10 & 2070.82 & 0.89 & 5.34 s & 2070.58 & 1.0005 & 71 ms \\
+        14 & 2814.82 & 1.25 & 42.51 min & 2814.50 & 1.0006 & 400 ms \\
+        18 & 3524.78 & 1.61 & 25.39 min & 3524.24 & 1.0006 & 2.72 s \\
+        22 & 4189.57 & 1.97 & 9.49 min & 4188.85 & 1.0006 & 42.87 s \\
+        26 & 4790.46 & 2.32 & 202.68 min & 4789.37 & 1.0007 & 12.46 min \\
+        30 & 4805.24 & 2.68 & 1159.03 min & 4789.37 & 1.0039 & 12.50 min \\
+        34 & 4816.37 & 3.04 & 6813.38 min & 4789.37 & 1.0063 & 12.63 min \\
+        \bottomrule
+    \end{tabular}
+    }
+    \begin{tablenotes}[flushleft]
+    \footnotesize
+    \item[] \emph{Notes.} Summary showing welfare and computation time for the MILP and \greedy{} on the pilot data with a population of $n=130$ and pool size constraint $G=5$, with testing budgets $B \in \{2, 6, \ldots, 34\}$. Welfare figures are deterministic values computed on the pilot population. The column ``Guarantee'' reports the a priori additive approximation guarantee of MILP relative to optimal non-overlapping welfare. The column ``Apx To Optimal'' reports the upper bound on the ratio between optimal non-overlapping welfare and \greedy{} welfare, computed as MILP welfare plus the guarantee, divided by \greedy{} welfare.
+    \end{tablenotes}
+    \end{threeparttable}
+\end{table}
