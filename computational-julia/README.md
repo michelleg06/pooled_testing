@@ -8,8 +8,6 @@ This directory contains the public reproduction materials for computational expe
 - `experiments.jl` now creates opaque internal keys from CSV row indices.
 - Pilot experiments 1 and 2 use approximation parameter `K=25`.
 - Synthetic experiments 3 and 4 use approximation parameter `K=20`.
-- Experiment 6, unused SCIP code, personal tooling configuration, AWS deployment notes, and manuscript PDFs are outside this focused exp1--exp4 companion.
-
 
 ## Contents
 
