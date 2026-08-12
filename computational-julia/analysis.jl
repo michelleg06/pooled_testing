@@ -9,9 +9,7 @@
 # budget), two styles of ratio figure:
 #   figs/expN-ratiodots.{tikz,pdf}, figs/expN-ratiohist.{tikz,pdf}
 #       plain style, with a rendered .pdf for quick viewing
-#   figs/expN-ratiodots_mga.tikz, figs/expN-ratiohist_mga.tikz
-#       the manuscript style the paper \input{}s: \columnwidth sizing, split
-#       grey axis lines, and a dashed parity line
+
 
 
 using CSV, DataFrames, Statistics, PrettyTables, ArgParse, Printf, PGFPlotsX, Random
