@@ -12,14 +12,7 @@
 #   figs/expN-ratiodots_mga.tikz, figs/expN-ratiohist_mga.tikz
 #       the manuscript style the paper \input{}s: \columnwidth sizing, split
 #       grey axis lines, and a dashed parity line
-# Tables are written as a .tex `table` environment (with caption/label, for
-# \input{} into a paper); figures are written as a raw .tikz tikzpicture (no
-# preamble, also for \input{} into a paper). Tables and plain figures also get
-# a rendered standalone .pdf alongside them (for quick viewing). Rendering the
-# .pdf requires a local LaTeX installation (pdflatex is shelled out to).
-#
-# The _mga figures assume the including document loads pgfplots with the
-# groupplots library (and tikz's calc library, which pgfplots pulls in).
+
 
 using CSV, DataFrames, Statistics, PrettyTables, ArgParse, Printf, PGFPlotsX, Random
 
