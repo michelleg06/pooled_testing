@@ -11,10 +11,7 @@ The full solver-dependent experiments were not rerun while assembling this relea
 - Pilot experiments 1 and 2 use approximation parameter `K=25`.
 - Synthetic experiments 3 and 4 use approximation parameter `K=20`.
 - Experiment 6, unused SCIP code, personal tooling configuration, AWS deployment notes, and manuscript PDFs are outside this focused exp1--exp4 companion.
-- The coauthor responsible for this pipeline confirmed that the stored synthetic results for experiments 3 and 4 use approximation parameter `K=20`.
-- The stored aggregate CSVs and TeX/TikZ files were supplied and cleared by the coauthor responsible for the computational pipeline. They were not regenerated while this package was assembled.
-- The four `_mga.tikz` files under `figs/` are the figure sources confirmed for the current manuscript.
-- Utility scaling, RNG behavior, runtime package installation, and other computational behavior were intentionally left unchanged.
+
 
 ## Contents
 
