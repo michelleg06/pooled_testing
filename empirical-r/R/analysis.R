@@ -3,7 +3,6 @@
 # ===========================================================================================
 # Script: R/analysis.R
 # Project: Empirical analysis for the C-SEF randomized trial
-# Author: Michelle González Amador, Simon Finster
 # Purpose: Prepare the trial data and reproduce the empirical results.
 # Inputs: data/baseline.csv and data/endline.csv.
 # Outputs: Tables in output/tables/ and the utility figure in output/figures/.
