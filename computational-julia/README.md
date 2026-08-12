@@ -4,8 +4,8 @@ This directory contains the public reproduction materials for computational expe
 
 ## Release notes
 
-- The original `id` field in `pilotdata.csv` was removed. In the recovered code it served only as an opaque dictionary key; it was not a model covariate, grouping variable, or reported output.
-- `experiments.jl` now creates opaque internal keys from CSV row indices. The original IDs were exactly `1:130` in row order, so this preserves the model input ordering while excluding the column.
+- The original `id` field in `pilotdata.csv` was removed.
+- `experiments.jl` now creates opaque internal keys from CSV row indices.
 - Pilot experiments 1 and 2 use approximation parameter `K=25`.
 - Synthetic experiments 3 and 4 use approximation parameter `K=20`.
 - Experiment 6, unused SCIP code, personal tooling configuration, AWS deployment notes, and manuscript PDFs are outside this focused exp1--exp4 companion.
